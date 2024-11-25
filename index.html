@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div>
+      <div class="text-with-line">YAY! It's BOGO</div>
+
+      <div
+        class="pricing-container"
+        id="1"
+        onclick="toggleUi(1, '$ 10.00 USD')"
+      >
+        <div style="display: flex; justify-content: space-between; width: 100%">
+          <label class="radio-option">
+            <input type="radio" name="unit" />
+            <span class="radio-circle"></span>
+          </label>
+          <div class="details">
+            <div class="unit-info">
+              <span class="unit-text">1 Unit</span>
+              <span class="discount-badge">10% Off</span>
+            </div>
+            <span class="price-description">Standard Price</span>
+          </div>
+          <div class="price-info">
+            <span class="current-price">$10.00 USD</span>
+            <span class="original-price">$24.00 USD</span>
+          </div>
+        </div>
+
+        <!-- Hidden Component -->
+        <div class="parentexpand">
+          <div class="expandable">
+            <div class="sizebox">
+              <p class="sizetext">Size</p>
+              <div class="optionvalue">
+                <div style="display: flex; gap: 20px">
+                  <p>#1</p>
+                  <select>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                  </select>
+                </div>
+
+                <div style="display: flex; gap: 20px">
+                  <p>#2</p>
+                  <select>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="sizebox">
+              <p class="sizetext">Color</p>
+              <div class="optionvalue">
+                <div style="display: flex; gap: 20px">
+                  <select>
+                    <option value="1">Black</option>
+                    <option value="2">Blue</option>
+                    <option value="3">Red</option>
+                  </select>
+                </div>
+
+                <div style="display: flex; gap: 20px">
+                  <select>
+                    <option value="1">Color</option>
+                    <option value="2">Pink</option>
+                    <option value="3">Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="pricing-container"
+        id="2"
+        onclick="toggleUi(2, '$ 18.00 USD')"
+      >
+        <div class="most-popular-badge">MOST POPULAR</div>
+        <div style="display: flex; justify-content: space-between; width: 100%">
+          <label class="radio-option">
+            <input type="radio" name="unit" />
+            <span class="radio-circle"></span>
+          </label>
+          <div class="details">
+            <div class="unit-info">
+              <span class="unit-text">2 Unit</span>
+              <span class="discount-badge">20% Off</span>
+            </div>
+            <span class="price-description">Standard Price</span>
+          </div>
+          <div class="price-info">
+            <span class="current-price">$18.00 USD</span>
+            <span class="original-price">$24.00 USD</span>
+          </div>
+        </div>
+
+        <!-- Hidden Component -->
+        <div class="parentexpand">
+          <div class="expandable">
+            <div class="sizebox">
+              <p class="sizetext">Size</p>
+              <div class="optionvalue">
+                <div style="display: flex; gap: 20px">
+                  <p>#1</p>
+                  <select>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                  </select>
+                </div>
+                <div style="display: flex; gap: 20px">
+                  <p>#2</p>
+                  <select>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="sizebox">
+              <p class="sizetext">Color</p>
+              <div class="optionvalue">
+                <div style="display: flex; gap: 20px">
+                  <select>
+                    <option value="1">Black</option>
+                    <option value="2">Blue</option>
+                    <option value="3">Red</option>
+                  </select>
+                </div>
+                <div style="display: flex; gap: 20px">
+                  <select>
+                    <option value="1">Color</option>
+                    <option value="2">Pink</option>
+                    <option value="3">Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="pricing-container"
+        id="3"
+        onclick="toggleUi(3, '$ 24.00 USD')"
+      >
+        <div style="display: flex; justify-content: space-between; width: 100%">
+          <label class="radio-option">
+            <input type="radio" name="unit" />
+            <span class="radio-circle"></span>
+          </label>
+          <div class="details">
+            <div class="unit-info">
+              <span class="unit-text">3 Unit</span>
+              <span class="discount-badge">30% Off</span>
+            </div>
+            <span class="price-description">Standard Price</span>
+          </div>
+          <div class="price-info">
+            <span class="current-price">$24.00 USD</span>
+            <span class="original-price">$24.00 USD</span>
+          </div>
+        </div>
+
+        <!-- Hidden Component -->
+        <div class="parentexpand">
+          <div class="expandable">
+            <div class="sizebox">
+              <p class="sizetext">Size</p>
+              <div class="optionvalue">
+                <div style="display: flex; gap: 20px">
+                  <p>#1</p>
+                  <select>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                  </select>
+                </div>
+
+                <div style="display: flex; gap: 20px">
+                  <p>#2</p>
+                  <select>
+                    <option value="1">S</option>
+                    <option value="2">M</option>
+                    <option value="3">L</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="sizebox">
+              <p class="sizetext">Color</p>
+              <div class="optionvalue">
+                <div style="display: flex; gap: 20px">
+                  <select>
+                    <option value="1">Black</option>
+                    <option value="2">Blue</option>
+                    <option value="3">Red</option>
+                  </select>
+                </div>
+
+                <div style="display: flex; gap: 20px">
+                  <select>
+                    <option value="1">Color</option>
+                    <option value="2">Pink</option>
+                    <option value="3">Green</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deliveryBox">
+        <div class="delivery">
+          <div class="deliveryText">Free Delivery</div>
+          <div class="prize">$ 10.00 USD</div>
+        </div><br/>
+
+        <div class="button">
+            <button>+ Add to Cart</button>
+        </div>
+      </div>   
+      
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
